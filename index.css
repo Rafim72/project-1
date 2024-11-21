@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: darkorange;
+    background-color: black;
+}
+h2{
+    color: brown;
+    background-color: burlywood;
+}
+h3{
+    color: rgb(180, 18, 202);
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(36, 180, 88);
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+#a{
+    height: 200px;
+    width: 400px;
+    background-color: chocolate;
+    padding-left: 20%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

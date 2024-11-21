@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#beg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(245, 222, 179, 0.41);
+}
+#nev{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(245, 222, 179, 0.419);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nev1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#nev1 h3{
+    font-size: 25px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#nev1 i{
+    font-size: 40px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#nev2 h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+#nev button{
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10%;
+    padding: 5px 10px;
+}
+#b2{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}
+#beg>h1{
+    text-transform: uppercase;
+    font-weight: 100%;
+    font-size: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#i1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#i2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+#i3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+
+}
+#beg>h3{
+    position: absolute;
+    bottom: 4%;
+    left: 50px; 
+    font-weight: 500;
+}
+#smi{
+    font-size: 40px;
+    position: absolute;
+    right: 40px;
+    bottom: 4%;
+}

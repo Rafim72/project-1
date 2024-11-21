@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#work{
+    height: 55%; 
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+#tbBorder{
+    height: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 0px 60px;
+
+}
+#workPrt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;
+
+}
+#w1{
+    height: 100%;
+    width: 34.5%;
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: space-between;
+}
+#w1 h2{
+    font-size: 35px; 
+    font-weight: 500;
+}
+#w1 i{
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 60px;
+}
+#w2{
+    height: 100%;
+    width: 65.5%;
+    /*background-color: rgb(210, 75, 30);*/
+    padding-left: 60px;
+    border-left: 2px solid black;
+}
+.w2Part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+
+}
+.w2Part:nth-child(1){
+    border-bottom: 2px solid black;
+}
+
+.w2Part .elm{
+    height: 100%;
+    width: 100%;
+
+}
+.w2Part .elm:nth-child(2){
+    border-left: 2px solid black;
+    padding-left: 50px;
+}
+.w2Part .elm:nth-child(1){
+    padding-right: 50px;
+}
+.elm h4{
+    color: rgb(40, 38, 38);
+    font-size: 45px;
+}
+.elm p{
+    color: rgb(67, 62, 62);
+    font-size: 18px;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /*background-color: aquamarine*/
+}
+#nav{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#nav-part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+#nav-part2{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+#nav h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 60px;
+
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 540;
+}
+#content h1{
+    margin-top: 60px;
+    font-size: 180px;
+    font-weight: 530;
+    line-height: 150px;
+    letter-spacing: -9px;
+    word-spacing: 20px;
+}
+#case{
+    background-color: rgb(255, 196, 0);
+    padding: 40px 60px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 28px;
+    font-weight: 500;
+}
+#case h5{
+    font-size: 28px;
+    font-weight: 500;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+    
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 80px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 770px;
+    widows: 100%;
+    background-color: rgba(110, 161, 170, 0.621);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+}
+#img2{
+    background-image: url(https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/e9/12/28/e9122865-4bb9-ce84-7242-241a0f429392/pr_source.png/434x0w.webp);
+}
+.bpttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bpttom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+}
+.bpttom i:hover{
+    color: white;
+    background-color: black;
+
+}
+.bpttom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.bpttom h4{
+    font-size: 20px;
+    color: rgb(151, 149, 149);
+    font-weight: 500;
+}

@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%; 
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 50%;
+    width: 100%;
+}
+#mnu{
+    display: flex;
+    font-size: 22px;
+    justify-content: flex-end;
+    padding-right: 55px;
+    padding-top: 35px;
+    gap: 8px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+}
+#menu{
+    color: white;
+    background-color: rgb(41, 40, 40);
+    padding: 16px 27px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#o{
+    color: white;
+    background-color: rgb(41, 40, 40);
+    padding: 15px 22px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+
+#int{
+   font-size: 80px; 
+   padding-top: 70px;
+   padding-left: 69px;
+   line-height: 200%;
+}
+#int h1{
+    color: rgb(41, 40, 40);
+    font-weight: 500;
+    letter-spacing: -7px;
+}
+#pls{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+#pls h3{
+    font-size: 35px;
+    color: rgb(41, 40, 40);
+}
+#bgi{
+    height: 90%;
+    width: 1005;
+    background-image: url(https://images.unsplash.com/photo-1507919909716-c8262e491cde?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#am{
+    height: 53%;
+    width: 100%;
+    /* background-color: sandybrown; */
+}
+#inside_am{
+    
+    height: 80%;
+    width: 93%;
+    /* background-color: rgb(199, 222, 135);  */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+} 
+#am1{
+    width: 65.5%; 
+}
+#am1 h1{
+    font-size: 93px;
+    line-height: 95px;
+    padding-right: 80px;
+    font-weight: 500;
+    color: rgb(41, 40, 40);
+
+}
+#am2{
+    width: 30%;
+    border-left: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 69px;
+
+}
+#am2 h3{
+    font-size: 32px;
+    color: rgb(41, 40, 40);
+}
+#am2 i{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding:10px 11px;
+    border-radius: 50px;
+}
+#am2 i:hover{
+    background-color: rgba(250, 128, 114, 0.358);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 50%;
+}
+#work{
+    height: 55%; 
+    width: 100%;
+    /*background-color: antiquewhite;*/
+}
+#tbBorder{
+    height: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0px 60px;
+
+}
+#workPrt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 60px 0px;
+
+}
+#w1{
+    height: 100%;
+    width: 34.5%;
+    /*background-color: chocolate;*/
+    display: flex;
+    justify-content: space-between;
+}
+#w1 h2{
+    font-size: 34px; 
+}
+#w1 i{
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 60px;
+}
+#w2{
+    height: 100%;
+    width: 65.5%;
+    /*background-color: rgb(210, 75, 30);*/
+    padding-left: 60px;
+    border-left: 3px solid black;
+}
+.w2Part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+
+}
+.w2Part:nth-child(1){
+    border-bottom: 3px solid black;
+}
+
+.w2Part .elm{
+    height: 100%;
+    width: 100%;
+
+}
+.w2Part .elm:nth-child(2){
+    border-left: 3px solid black;
+    padding-left: 50px;
+}
+.w2Part .elm:nth-child(1){
+    padding-right: 50px;
+}
+.elm h4{
+    color: rgb(40, 38, 38);
+    font-size: 45px;
+}
+.elm p{
+    color: rgb(67, 62, 62);
+    font-size: 18px;
+}
+#titel{
+    height: 29%;
+    width: 100%;
+    /* background-color: brown; */
+}
+#titel h1{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 180px;
+    letter-spacing: 4px;
+}
+#bgi2{
+    height: 90%;
+    background-color: brown;
+    background-image: url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
